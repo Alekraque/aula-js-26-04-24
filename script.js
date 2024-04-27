@@ -1,3 +1,12 @@
+function calcc() {
+    var lista = parseInt(document.getElementById('lista').value)
+
+    for (i=0; i<=lista; i++){
+        console.log(i)
+    }
+}
+
+
 function calcular() {
     var numero = parseInt(document.getElementById('numero').value)
 
@@ -14,8 +23,4 @@ function calc() {
             console.log(`${divisor} é divisivel por ${i}`)
         }
     }
-}
-
-function calcc() {
-    
 }
